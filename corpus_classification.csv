@@ -26,7 +26,7 @@ radford2021clip,Learning Transferable Visual Models from Natural Language Superv
 hu2022lora,LoRA: Low-Rank Adaptation of Large Language Models,2022,Proc. ICLR,yes,foundation,transfer,T
 ji2022kgsurvey,"A Survey on Knowledge Graphs: Representation, Acquisition, and Applications",2022,IEEE Transactions on Neural Networks and Learning Systems,yes,foundation,survey,S
 elizalde2023clap,CLAP: Learning Audio Concepts from Natural Language Supervision,2023,Proc. IEEE ICASSP,yes,foundation,enabler,"A,T"
-girdhar2023imagebind,ImageBind: One Embedding Space to Bind Them All,2023,Proc. IEEE/CVF CVPR,yes,foundation,enabler,"T,I,A,V"
+girdhar2023imagebind,ImageBind: One Embedding Space to Bind Them All,2023,Proc. IEEE/CVF CVPR,yes,foundation,enabler,"T,I,A"
 li2023blip2,BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models,2023,Proc. ICML,yes,foundation,enabler,"T,I"
 liu2023llava,Visual Instruction Tuning,2023,Proc. NeurIPS,yes,foundation,enabler,"T,I"
 radford2023whisper,Robust Speech Recognition via Large-Scale Weak Supervision,2023,Proc. ICML,yes,foundation,enabler,"A,T"

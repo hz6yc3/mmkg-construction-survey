@@ -54,7 +54,7 @@ Modality codes: **T** text, **I** image, **A** audio, **V** video, **B** table, 
 - **LoRA: Low-Rank Adaptation of Large Language Models** — Hu et al., *Proc. ICLR*, 2022. `transfer method` · modalities: T
 - **A Survey on Knowledge Graphs: Representation, Acquisition, and Applications** — Ji et al., *IEEE Transactions on Neural Networks and Learning Systems*, 2022. `survey` · modalities: S
 - **CLAP: Learning Audio Concepts from Natural Language Supervision** — Elizalde et al., *Proc. IEEE ICASSP*, 2023. `modality encoder (enabler)` · modalities: A,T
-- **ImageBind: One Embedding Space to Bind Them All** — Girdhar et al., *Proc. IEEE/CVF CVPR*, 2023. `modality encoder (enabler)` · modalities: T,I,A,V
+- **ImageBind: One Embedding Space to Bind Them All** — Girdhar et al., *Proc. IEEE/CVF CVPR*, 2023. `modality encoder (enabler)` · modalities: T,I,A
 - **BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models** — Li et al., *Proc. ICML*, 2023. `modality encoder (enabler)` · modalities: T,I
 - **Visual Instruction Tuning** — Liu et al., *Proc. NeurIPS*, 2023. `modality encoder (enabler)` · modalities: T,I
 - **Robust Speech Recognition via Large-Scale Weak Supervision** — Radford et al., *Proc. ICML*, 2023. `modality encoder (enabler)` · modalities: A,T
@@ -186,6 +186,7 @@ Each family is represented by its most modality-extensive member (rule R4 of the
 | Docs2KG | construction pipeline | ✓ | ✓ |  |  | ✓ |
 | MultiModalQA | QA benchmark | ✓ | ✓ |  |  | ✓ |
 | VAT-KG | pipeline + dataset | ✓ | ✓ | ✓ |  |  |
+| ImageBind | cross-modal encoder (enabler) | ✓ | ✓ | ✓ |  |  |
 | Video-LLaMA | audio-visual encoder (enabler) | ✓ |  | ✓ | ✓ |  |
 | TIVA-KG | four-modality dataset | ✓ | ✓ | ✓ | ✓ |  |
 
