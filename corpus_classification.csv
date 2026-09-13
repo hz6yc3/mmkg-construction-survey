@@ -1,9 +1,9 @@
 key,title,year,venue,peer_reviewed,area,contribution_type,modalities
 wang2017kgesurvey,Knowledge Graph Embedding: A Survey of Approaches and Applications,2017,IEEE Transactions on Knowledge and Data Engineering,yes,survey,survey,S
 zhong2023autokgc,A Comprehensive Survey on Automatic Knowledge Graph Construction,2023,ACM Computing Surveys,yes,survey,survey,T
+aireview2025kml,A Survey on Knowledge-Enhanced Multimodal Learning,2024,Artificial Intelligence Review,yes,survey,survey,"T,I"
 chen2024kgmm,Knowledge Graphs Meet Multi-Modal Learning: A Comprehensive Survey,2024,arXiv preprint arXiv:2402.05391,no,survey,survey,"T,I"
 zhu2022mmkg,Multi-Modal Knowledge Graph Construction and Application: A Survey,2024,IEEE Transactions on Knowledge and Data Engineering,yes,survey,survey,"T,I"
-aireview2025kml,A Survey on Knowledge-Enhanced Multimodal Learning,2025,Artificial Intelligence Review,yes,survey,survey,"T,I"
 bian2025llmkgc,LLM-Empowered Knowledge Graph Construction: A Survey,2025,arXiv preprint arXiv:2510.20345,no,survey,survey,T
 zhang2025graphragsurvey,A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models,2025,arXiv preprint arXiv:2501.13958,no,survey,survey,T
 auer2007dbpedia,DBpedia: A Nucleus for a Web of Open Data,2007,Proc. ISWC/ASWC,yes,foundation,resource,T
@@ -39,7 +39,7 @@ tan2022redocred,Revisiting DocRED -- Addressing the False Negative Problem in Re
 babaei2023llms4ol,LLMs4OL: Large Language Models for Ontology Learning,2023,Proc. ISWC,yes,text,construction,T
 text2kgbench2023,Text2KGBench: A Benchmark for Ontology-Driven Knowledge Graph Generation from Text,2023,Proc. ISWC,yes,text,dataset,T
 chen2024sackg,SAC-KG: Exploiting Large Language Models as Skilled Automatic Constructors for Domain Knowledge Graph,2024,Proc. ACL,yes,text,construction,T
-liang2024kag,KAG: Boosting LLMs in Professional Domains via Knowledge-Augmented Generation,2024,arXiv preprint arXiv:2409.13731,no,text,construction,T
+liang2024kag,KAG: Boosting LLMs in Professional Domains via Knowledge Augmented Generation,2024,arXiv preprint arXiv:2409.13731,no,text,construction,T
 bai2025autoschemakg,AutoSchemaKG: Autonomous Knowledge Graph Construction through Dynamic Schema Induction from Web-Scale Corpora,2025,arXiv preprint arXiv:2505.23628,no,text,construction,T
 nlpakg2025,NLP-AKG: Few-Shot Construction of NLP Academic Knowledge Graph Based on LLM,2025,arXiv preprint arXiv:2502.14192,no,text,construction,T
 trace2026,Beyond Predefined Schemas: TRACE-KG for Context-Enriched Knowledge Graphs from Complex Documents,2026,arXiv preprint arXiv:2604.03496,no,text,construction,T
@@ -52,7 +52,7 @@ wang2022lilt,LiLT: A Simple yet Effective Language-Independent Layout Transforme
 docowl2024,mPLUG-DocOwl 1.5: Unified Structure Learning for OCR-free Document Understanding,2024,arXiv preprint arXiv:2403.12895,no,doc,extraction,"T,I,B"
 luo2024layoutllm,LayoutLLM: Layout Instruction Tuning with Large Language Models for Document Understanding,2024,Proc. IEEE/CVF CVPR,yes,doc,extraction,"T,I,B"
 nougat2024,Nougat: Neural Optical Understanding for Academic Documents,2024,Proc. ICLR,yes,doc,extraction,"T,I,B"
-sun2024docs2kg,Docs2KG: Unified Knowledge Graph Construction from Heterogeneous Documents Assisted by Large Language Models,2025,Companion Proc. ACM Web Conference (WWW),yes,doc,construction,"T,I,B"
+sun2024docs2kg,Docs2KG: A Human-LLM Collaborative Approach to Unified Knowledge Graph Construction from Heterogeneous Documents,2025,Companion Proc. ACM Web Conference (WWW),yes,doc,construction,"T,I,B"
 lu2018visual,Visual Attention Model for Name Tagging in Multimodal Social Media,2018,Proc. ACL,yes,ext,extraction,"T,I"
 moon2018mner,Multimodal Named Entity Recognition for Short Social Media Posts,2018,Proc. NAACL-HLT,yes,ext,extraction,"T,I"
 yu2020umt,Improving Multimodal Named Entity Recognition via Entity Span Detection with Unified Multimodal Transformer,2020,Proc. ACL,yes,ext,extraction,"T,I"
@@ -64,10 +64,10 @@ wang2022ita,ITA: Image-Text Alignments for Multi-Modal Named Entity Recognition,
 he2023more,MORE: A Multimodal Object-Entity Relation Extraction Dataset with a Benchmark Evaluation,2023,Proc. ACM Multimedia,yes,ext,dataset,"T,I"
 yu2023gmner,Grounded Multimodal Named Entity Recognition on Social Media,2023,Proc. ACL,yes,ext,dataset,"T,I"
 chen2024continualmmkg,Continual Multimodal Knowledge Graph Construction,2024,Proc. IJCAI,yes,ext,construction,"T,I"
-li2025riveg,LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition,2025,IEEE Transactions on Multimedia (also Findings of ACL 2024),yes,ext,extraction,"T,I"
-liu2025valik,Aligning Vision to Language: Annotation-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning (VaLiK),2025,arXiv preprint arXiv:2503.12972,no,ext,construction,"T,I"
-multilora2025,Collaborative Multi-LoRA Experts with Achievement-Based Multi-Tasks Loss for Unified Multimodal Information Extraction,2025,arXiv preprint arXiv:2505.06303,no,ext,extraction,"T,I"
-remote2025,REMOTE: A Unified Multimodal Relation Extraction Framework with Multilevel Optimal Transport and Mixture-of-Experts,2025,arXiv preprint arXiv:2509.04844,no,ext,extraction,"T,I"
+li2025riveg,LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition,2025,IEEE Transactions on Multimedia,yes,ext,extraction,"T,I"
+liu2025valik,Aligning Vision to Language: Annotation-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning (VaLiK),2025,Proc. IEEE/CVF ICCV,yes,ext,construction,"T,I"
+multilora2025,Collaborative Multi-LoRA Experts with Achievement-Based Multi-Tasks Loss for Unified Multimodal Information Extraction,2025,Proc. IJCAI,yes,ext,extraction,"T,I"
+remote2025,REMOTE: A Unified Multimodal Relation Extraction Framework with Multilevel Optimal Transport and Mixture-of-Experts,2025,Proc. ACM Multimedia,yes,ext,extraction,"T,I"
 xie2017ikrl,Image-Embodied Knowledge Representation Learning,2017,Proc. IJCAI,yes,comp,completion,"T,I"
 wang2019transae,Multimodal Data Enhanced Representation Learning for Knowledge Graphs (TransAE),2019,Proc. IJCNN,yes,comp,completion,"T,I"
 liu2021eva,Visual Pivoting for (Unsupervised) Entity Alignment (EVA),2021,Proc. AAAI,yes,comp,completion,"T,I"
@@ -82,9 +82,9 @@ li2023imf,IMF: Interactive Multimodal Fusion Model for Link Prediction,2023,Proc
 zhang2024adamf,Unleashing the Power of Imbalanced Modality Information for Multi-modal Knowledge Graph Completion (AdaMF-MAT),2024,Proc. LREC-COLING,yes,comp,completion,"T,I"
 zhang2024native,NativE: Multi-modal Knowledge Graph Completion in the Wild,2024,Proc. ACM SIGIR,yes,comp,completion,"T,I"
 diffusioncom2025,DiffusionCom: Structure-Aware Multimodal Diffusion Model for Multimodal Knowledge Graph Completion,2025,arXiv preprint arXiv:2504.06543,no,comp,completion,"T,I"
-gao2025mckgc,Mixed-Curvature Multi-modal Knowledge Graph Completion (MCKGC),2025,Proc. AAAI,yes,comp,completion,"T,I"
+gao2025mckgc,Mixed-Curvature Multi-Modal Knowledge Graph Completion,2025,Proc. AAAI,yes,comp,completion,"T,I"
 hergc2025,HERGC: Heterogeneous Experts Representation and Generative Completion for Multimodal Knowledge Graphs,2025,arXiv preprint arXiv:2506.00826,no,comp,completion,"T,I"
-snag2025,The Power of Noise: Toward a Unified Multi-modal Knowledge Graph Representation Framework,2025,Proc. COLING,yes,comp,completion,"T,I"
+snag2025,Noise-Powered Multi-Modal Knowledge Graph Representation Framework,2025,Proc. COLING,yes,comp,completion,"T,I"
 zhang2025momok,Multiple Heads Are Better Than One: Mixture of Modality Knowledge Experts for Entity Representation Learning (MoMoK),2025,Proc. ICLR,yes,comp,completion,"T,I"
 zhang2025mygo,"Tokenization, Fusion, and Augmentation: Towards Fine-Grained Multimodal Entity Representation (MyGO)",2025,Proc. AAAI,yes,comp,completion,"T,I"
 pasupat2015wtq,Compositional Semantic Parsing on Semi-Structured Tables,2015,Proc. ACL,yes,beyond,dataset,"T,B"

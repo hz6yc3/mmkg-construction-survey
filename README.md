@@ -18,7 +18,7 @@ Modality codes: **T** text, **I** image, **A** audio, **V** video, **B** table, 
 - 118 references: 86 primary works across six research areas, 7 prior surveys, 25 foundational references.
 - Primary works by contribution type: 9 construction pipelines/methods, 24 extraction/parsing components, 20 completion/representation/alignment methods, 21 datasets/benchmarks/resources, 8 retrieval/reasoning systems, 4 transfer methods.
 - Modality coverage of primary works: 22 text/structure only; 43 text+image; 13 three or more modalities; none covers all five (TIVA-KG, with four, is the widest).
-- Preprints among primary works: 16 (all 2024 or later); please check them against final proceedings.
+- Preprints among primary works: 13 (all 2024 or later); please check them against final proceedings.
 
 ## Reading list by research area
 
@@ -26,9 +26,9 @@ Modality codes: **T** text, **I** image, **A** audio, **V** video, **B** table, 
 
 - **Knowledge Graph Embedding: A Survey of Approaches and Applications** — Wang et al., *IEEE Transactions on Knowledge and Data Engineering*, 2017. `survey` · modalities: S
 - **A Comprehensive Survey on Automatic Knowledge Graph Construction** — Zhong et al., *ACM Computing Surveys*, 2023. `survey` · modalities: T
+- **A Survey on Knowledge-Enhanced Multimodal Learning** — Lymperaiou et al., *Artificial Intelligence Review*, 2024. `survey` · modalities: T,I
 - **Knowledge Graphs Meet Multi-Modal Learning: A Comprehensive Survey** — Chen et al., *arXiv preprint arXiv:2402.05391*, 2024. `survey` · modalities: T,I [[arXiv]](https://arxiv.org/abs/2402.05391)
 - **Multi-Modal Knowledge Graph Construction and Application: A Survey** — Zhu et al., *IEEE Transactions on Knowledge and Data Engineering*, 2024. `survey` · modalities: T,I
-- **A Survey on Knowledge-Enhanced Multimodal Learning** — Lymperaiou et al., *Artificial Intelligence Review*, 2025. `survey` · modalities: T,I
 - **LLM-Empowered Knowledge Graph Construction: A Survey** — Bian, *arXiv preprint arXiv:2510.20345*, 2025. `survey` · modalities: T [[arXiv]](https://arxiv.org/abs/2510.20345)
 - **A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models** — Zhang et al., *arXiv preprint arXiv:2501.13958*, 2025. `survey` · modalities: T [[arXiv]](https://arxiv.org/abs/2501.13958)
 
@@ -70,7 +70,7 @@ Modality codes: **T** text, **I** image, **A** audio, **V** video, **B** table, 
 - **LLMs4OL: Large Language Models for Ontology Learning** — Babaei Giglou et al., *Proc. ISWC*, 2023. `construction pipeline/method` · modalities: T
 - **Text2KGBench: A Benchmark for Ontology-Driven Knowledge Graph Generation from Text** — Mihindukulasooriya et al., *Proc. ISWC*, 2023. `dataset/benchmark/resource` · modalities: T
 - **SAC-KG: Exploiting Large Language Models as Skilled Automatic Constructors for Domain Knowledge Graph** — Chen et al., *Proc. ACL*, 2024. `construction pipeline/method` · modalities: T
-- **KAG: Boosting LLMs in Professional Domains via Knowledge-Augmented Generation** — Liang et al., *arXiv preprint arXiv:2409.13731*, 2024. `construction pipeline/method` · modalities: T [[arXiv]](https://arxiv.org/abs/2409.13731)
+- **KAG: Boosting LLMs in Professional Domains via Knowledge Augmented Generation** — Liang et al., *arXiv preprint arXiv:2409.13731*, 2024. `construction pipeline/method` · modalities: T [[arXiv]](https://arxiv.org/abs/2409.13731)
 - **AutoSchemaKG: Autonomous Knowledge Graph Construction through Dynamic Schema Induction from Web-Scale Corpora** — Bai et al., *arXiv preprint arXiv:2505.23628*, 2025. `construction pipeline/method` · modalities: T [[arXiv]](https://arxiv.org/abs/2505.23628)
 - **NLP-AKG: Few-Shot Construction of NLP Academic Knowledge Graph Based on LLM** — Lan et al., *arXiv preprint arXiv:2502.14192*, 2025. `construction pipeline/method` · modalities: T [[arXiv]](https://arxiv.org/abs/2502.14192)
 - **Beyond Predefined Schemas: TRACE-KG for Context-Enriched Knowledge Graphs from Complex Documents** — Abolhasani et al., *arXiv preprint arXiv:2604.03496*, 2026. `construction pipeline/method` · modalities: T [[arXiv]](https://arxiv.org/abs/2604.03496)
@@ -86,7 +86,7 @@ Modality codes: **T** text, **I** image, **A** audio, **V** video, **B** table, 
 - **mPLUG-DocOwl 1.5: Unified Structure Learning for OCR-free Document Understanding** — Hu et al., *arXiv preprint arXiv:2403.12895*, 2024. `extraction/parsing component` · modalities: T,I,B [[arXiv]](https://arxiv.org/abs/2403.12895)
 - **LayoutLLM: Layout Instruction Tuning with Large Language Models for Document Understanding** — Luo et al., *Proc. IEEE/CVF CVPR*, 2024. `extraction/parsing component` · modalities: T,I,B
 - **Nougat: Neural Optical Understanding for Academic Documents** — Blecher et al., *Proc. ICLR*, 2024. `extraction/parsing component` · modalities: T,I,B
-- **Docs2KG: Unified Knowledge Graph Construction from Heterogeneous Documents Assisted by Large Language Models** — Sun et al., *Companion Proc. ACM Web Conference (WWW)*, 2025. `construction pipeline/method` · modalities: T,I,B
+- **Docs2KG: A Human-LLM Collaborative Approach to Unified Knowledge Graph Construction from Heterogeneous Documents** — Sun et al., *Companion Proc. ACM Web Conference (WWW)*, 2025. `construction pipeline/method` · modalities: T,I,B
 
 ### 3a. Text and image: extraction and grounding
 
@@ -101,10 +101,10 @@ Modality codes: **T** text, **I** image, **A** audio, **V** video, **B** table, 
 - **MORE: A Multimodal Object-Entity Relation Extraction Dataset with a Benchmark Evaluation** — He et al., *Proc. ACM Multimedia*, 2023. `dataset/benchmark/resource` · modalities: T,I
 - **Grounded Multimodal Named Entity Recognition on Social Media** — Yu et al., *Proc. ACL*, 2023. `dataset/benchmark/resource` · modalities: T,I
 - **Continual Multimodal Knowledge Graph Construction** — Chen et al., *Proc. IJCAI*, 2024. `construction pipeline/method` · modalities: T,I
-- **LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition** — Li et al., *IEEE Transactions on Multimedia (also Findings of ACL 2024)*, 2025. `extraction/parsing component` · modalities: T,I
-- **Aligning Vision to Language: Annotation-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning (VaLiK)** — Liu et al., *arXiv preprint arXiv:2503.12972*, 2025. `construction pipeline/method` · modalities: T,I [[arXiv]](https://arxiv.org/abs/2503.12972)
-- **Collaborative Multi-LoRA Experts with Achievement-Based Multi-Tasks Loss for Unified Multimodal Information Extraction** — Yuan et al., *arXiv preprint arXiv:2505.06303*, 2025. `extraction/parsing component` · modalities: T,I [[arXiv]](https://arxiv.org/abs/2505.06303)
-- **REMOTE: A Unified Multimodal Relation Extraction Framework with Multilevel Optimal Transport and Mixture-of-Experts** — Lin et al., *arXiv preprint arXiv:2509.04844*, 2025. `extraction/parsing component` · modalities: T,I [[arXiv]](https://arxiv.org/abs/2509.04844)
+- **LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition** — Li et al., *IEEE Transactions on Multimedia*, 2025. `extraction/parsing component` · modalities: T,I
+- **Aligning Vision to Language: Annotation-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning (VaLiK)** — Liu et al., *Proc. IEEE/CVF ICCV*, 2025. `construction pipeline/method` · modalities: T,I
+- **Collaborative Multi-LoRA Experts with Achievement-Based Multi-Tasks Loss for Unified Multimodal Information Extraction** — Yuan et al., *Proc. IJCAI*, 2025. `extraction/parsing component` · modalities: T,I
+- **REMOTE: A Unified Multimodal Relation Extraction Framework with Multilevel Optimal Transport and Mixture-of-Experts** — Lin et al., *Proc. ACM Multimedia*, 2025. `extraction/parsing component` · modalities: T,I
 
 ### 3b. Text and image: representation, completion, and alignment
 
@@ -122,9 +122,9 @@ Modality codes: **T** text, **I** image, **A** audio, **V** video, **B** table, 
 - **Unleashing the Power of Imbalanced Modality Information for Multi-modal Knowledge Graph Completion (AdaMF-MAT)** — Zhang et al., *Proc. LREC-COLING*, 2024. `completion/representation/alignment` · modalities: T,I
 - **NativE: Multi-modal Knowledge Graph Completion in the Wild** — Zhang et al., *Proc. ACM SIGIR*, 2024. `completion/representation/alignment` · modalities: T,I
 - **DiffusionCom: Structure-Aware Multimodal Diffusion Model for Multimodal Knowledge Graph Completion** — Huang et al., *arXiv preprint arXiv:2504.06543*, 2025. `completion/representation/alignment` · modalities: T,I [[arXiv]](https://arxiv.org/abs/2504.06543)
-- **Mixed-Curvature Multi-modal Knowledge Graph Completion (MCKGC)** — Gao et al., *Proc. AAAI*, 2025. `completion/representation/alignment` · modalities: T,I
+- **Mixed-Curvature Multi-Modal Knowledge Graph Completion** — Gao et al., *Proc. AAAI*, 2025. `completion/representation/alignment` · modalities: T,I
 - **HERGC: Heterogeneous Experts Representation and Generative Completion for Multimodal Knowledge Graphs** — Xiao et al., *arXiv preprint arXiv:2506.00826*, 2025. `completion/representation/alignment` · modalities: T,I [[arXiv]](https://arxiv.org/abs/2506.00826)
-- **The Power of Noise: Toward a Unified Multi-modal Knowledge Graph Representation Framework** — Chen et al., *Proc. COLING*, 2025. `completion/representation/alignment` · modalities: T,I
+- **Noise-Powered Multi-Modal Knowledge Graph Representation Framework** — Chen et al., *Proc. COLING*, 2025. `completion/representation/alignment` · modalities: T,I
 - **Multiple Heads Are Better Than One: Mixture of Modality Knowledge Experts for Entity Representation Learning (MoMoK)** — Zhang et al., *Proc. ICLR*, 2025. `completion/representation/alignment` · modalities: T,I
 - **Tokenization, Fusion, and Augmentation: Towards Fine-Grained Multimodal Entity Representation (MyGO)** — Zhang et al., *Proc. AAAI*, 2025. `completion/representation/alignment` · modalities: T,I
 
