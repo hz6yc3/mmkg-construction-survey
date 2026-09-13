@@ -246,3 +246,7 @@ Standardized evaluation protocols and full-modality construction benchmarks are 
 ## Citation
 
 If you use this list, please cite the survey (full citation to be added upon publication).
+
+## License
+
+This repository (README, classification, and notes) is released under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). The cited papers remain under their own licenses.
