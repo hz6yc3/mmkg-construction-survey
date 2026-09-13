@@ -1,0 +1,119 @@
+key,title,year,venue,peer_reviewed,area,contribution_type,modalities
+wang2017kgesurvey,Knowledge Graph Embedding: A Survey of Approaches and Applications,2017,IEEE Transactions on Knowledge and Data Engineering,yes,survey,survey,S
+zhong2023autokgc,A Comprehensive Survey on Automatic Knowledge Graph Construction,2023,ACM Computing Surveys,yes,survey,survey,T
+chen2024kgmm,Knowledge Graphs Meet Multi-Modal Learning: A Comprehensive Survey,2024,arXiv preprint arXiv:2402.05391,no,survey,survey,"T,I"
+zhu2022mmkg,Multi-Modal Knowledge Graph Construction and Application: A Survey,2024,IEEE Transactions on Knowledge and Data Engineering,yes,survey,survey,"T,I"
+aireview2025kml,A Survey on Knowledge-Enhanced Multimodal Learning,2025,Artificial Intelligence Review,yes,survey,survey,"T,I"
+bian2025llmkgc,LLM-Empowered Knowledge Graph Construction: A Survey,2025,arXiv preprint arXiv:2510.20345,no,survey,survey,T
+zhang2025graphragsurvey,A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models,2025,arXiv preprint arXiv:2501.13958,no,survey,survey,T
+auer2007dbpedia,DBpedia: A Nucleus for a Web of Open Data,2007,Proc. ISWC/ASWC,yes,foundation,resource,T
+suchanek2007yago,YAGO: A Core of Semantic Knowledge,2007,Proc. WWW,yes,foundation,resource,T
+bollacker2008freebase,Freebase: A Collaboratively Created Graph Database for Structuring Human Knowledge,2008,Proc. ACM SIGMOD,yes,foundation,resource,T
+bordes2013transe,Translating Embeddings for Modeling Multi-relational Data,2013,Proc. NeurIPS,yes,foundation,completion,S
+vrandecic2014wikidata,Wikidata: A Free Collaborative Knowledgebase,2014,Communications of the ACM,yes,foundation,resource,T
+toutanova2015fb,Observed versus Latent Features for Knowledge Base and Text Inference,2015,Proc. Workshop on Continuous Vector Space Models and their Compositionality,yes,foundation,dataset,S
+yang2015distmult,Embedding Entities and Relations for Learning and Inference in Knowledge Bases,2015,Proc. ICLR,yes,foundation,completion,S
+trouillon2016complex,Complex Embeddings for Simple Link Prediction,2016,Proc. ICML,yes,foundation,completion,S
+gemmeke2017audioset,Audio Set: An Ontology and Human-Labeled Dataset for Audio Events,2017,Proc. IEEE ICASSP,yes,foundation,dataset,A
+krishna2017visualgenome,Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations,2017,International Journal of Computer Vision,yes,foundation,dataset,"T,I"
+dettmers2018conve,Convolutional 2D Knowledge Graph Embeddings (ConvE),2018,Proc. AAAI,yes,foundation,completion,S
+houlsby2019adapters,Parameter-Efficient Transfer Learning for NLP,2019,Proc. ICML,yes,foundation,transfer,T
+sun2019rotate,RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space,2019,Proc. ICLR,yes,foundation,completion,S
+baevski2020wav2vec,wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations,2020,Proc. NeurIPS,yes,foundation,enabler,A
+hogan2021kg,Knowledge Graphs,2021,ACM Computing Surveys,yes,foundation,survey,S
+lester2021prompt,The Power of Scale for Parameter-Efficient Prompt Tuning,2021,Proc. EMNLP,yes,foundation,transfer,T
+radford2021clip,Learning Transferable Visual Models from Natural Language Supervision,2021,Proc. ICML,yes,foundation,enabler,"T,I"
+hu2022lora,LoRA: Low-Rank Adaptation of Large Language Models,2022,Proc. ICLR,yes,foundation,transfer,T
+ji2022kgsurvey,"A Survey on Knowledge Graphs: Representation, Acquisition, and Applications",2022,IEEE Transactions on Neural Networks and Learning Systems,yes,foundation,survey,S
+elizalde2023clap,CLAP: Learning Audio Concepts from Natural Language Supervision,2023,Proc. IEEE ICASSP,yes,foundation,enabler,"A,T"
+girdhar2023imagebind,ImageBind: One Embedding Space to Bind Them All,2023,Proc. IEEE/CVF CVPR,yes,foundation,enabler,"T,I,A,V"
+li2023blip2,BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models,2023,Proc. ICML,yes,foundation,enabler,"T,I"
+liu2023llava,Visual Instruction Tuning,2023,Proc. NeurIPS,yes,foundation,enabler,"T,I"
+radford2023whisper,Robust Speech Recognition via Large-Scale Weak Supervision,2023,Proc. ICML,yes,foundation,enabler,"A,T"
+zhang2023videollama,Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding,2023,Proc. EMNLP System Demonstrations,yes,foundation,enabler,"T,A,V"
+angeli2015openie,Leveraging Linguistic Structure for Open Domain Information Extraction,2015,Proc. ACL,yes,text,extraction,T
+yao2019docred,DocRED: A Large-Scale Document-Level Relation Extraction Dataset,2019,Proc. ACL,yes,text,dataset,T
+huguet2021rebel,REBEL: Relation Extraction By End-to-end Language generation,2021,Findings of EMNLP,yes,text,extraction,T
+zhou2021atlop,Document-Level Relation Extraction with Adaptive Thresholding and Localized Context Pooling,2021,Proc. AAAI,yes,text,extraction,T
+tan2022redocred,Revisiting DocRED -- Addressing the False Negative Problem in Relation Extraction,2022,Proc. EMNLP,yes,text,dataset,T
+babaei2023llms4ol,LLMs4OL: Large Language Models for Ontology Learning,2023,Proc. ISWC,yes,text,construction,T
+text2kgbench2023,Text2KGBench: A Benchmark for Ontology-Driven Knowledge Graph Generation from Text,2023,Proc. ISWC,yes,text,dataset,T
+chen2024sackg,SAC-KG: Exploiting Large Language Models as Skilled Automatic Constructors for Domain Knowledge Graph,2024,Proc. ACL,yes,text,construction,T
+liang2024kag,KAG: Boosting LLMs in Professional Domains via Knowledge-Augmented Generation,2024,arXiv preprint arXiv:2409.13731,no,text,construction,T
+bai2025autoschemakg,AutoSchemaKG: Autonomous Knowledge Graph Construction through Dynamic Schema Induction from Web-Scale Corpora,2025,arXiv preprint arXiv:2505.23628,no,text,construction,T
+nlpakg2025,NLP-AKG: Few-Shot Construction of NLP Academic Knowledge Graph Based on LLM,2025,arXiv preprint arXiv:2502.14192,no,text,construction,T
+trace2026,Beyond Predefined Schemas: TRACE-KG for Context-Enriched Knowledge Graphs from Complex Documents,2026,arXiv preprint arXiv:2604.03496,no,text,construction,T
+xu2020layoutlm,LayoutLM: Pre-training of Text and Layout for Document Image Understanding,2020,Proc. ACM SIGKDD,yes,doc,extraction,"T,I,B"
+mathew2021docvqa,DocVQA: A Dataset for VQA on Document Images,2021,Proc. IEEE/CVF WACV,yes,doc,dataset,"T,I,B"
+xu2021layoutlmv2,LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding,2021,Proc. ACL,yes,doc,extraction,"T,I,B"
+huang2022layoutlmv3,LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking,2022,Proc. ACM Multimedia,yes,doc,extraction,"T,I,B"
+kim2022donut,OCR-Free Document Understanding Transformer (Donut),2022,Proc. ECCV,yes,doc,extraction,"T,I,B"
+wang2022lilt,LiLT: A Simple yet Effective Language-Independent Layout Transformer for Structured Document Understanding,2022,Proc. ACL,yes,doc,extraction,"T,I,B"
+docowl2024,mPLUG-DocOwl 1.5: Unified Structure Learning for OCR-free Document Understanding,2024,arXiv preprint arXiv:2403.12895,no,doc,extraction,"T,I,B"
+luo2024layoutllm,LayoutLLM: Layout Instruction Tuning with Large Language Models for Document Understanding,2024,Proc. IEEE/CVF CVPR,yes,doc,extraction,"T,I,B"
+nougat2024,Nougat: Neural Optical Understanding for Academic Documents,2024,Proc. ICLR,yes,doc,extraction,"T,I,B"
+sun2024docs2kg,Docs2KG: Unified Knowledge Graph Construction from Heterogeneous Documents Assisted by Large Language Models,2025,Companion Proc. ACM Web Conference (WWW),yes,doc,construction,"T,I,B"
+lu2018visual,Visual Attention Model for Name Tagging in Multimodal Social Media,2018,Proc. ACL,yes,ext,extraction,"T,I"
+moon2018mner,Multimodal Named Entity Recognition for Short Social Media Posts,2018,Proc. NAACL-HLT,yes,ext,extraction,"T,I"
+yu2020umt,Improving Multimodal Named Entity Recognition via Entity Span Detection with Unified Multimodal Transformer,2020,Proc. ACL,yes,ext,extraction,"T,I"
+zheng2021mnre,MNRE: A Challenge Multimodal Dataset for Neural Relation Extraction with Visual Evidence in Social Media Posts,2021,Proc. IEEE ICME,yes,ext,dataset,"T,I"
+zheng2021mre,Multimodal Relation Extraction with Efficient Graph Alignment,2021,Proc. ACM Multimedia,yes,ext,extraction,"T,I"
+chen2022hvpnet,Good Visual Guidance Makes A Better Extractor: Hierarchical Visual Prefix for Multimodal Entity and Relation Extraction,2022,Findings of NAACL,yes,ext,extraction,"T,I"
+chen2022mkgformer,Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion (MKGformer),2022,Proc. ACM SIGIR,yes,ext,completion,"T,I"
+wang2022ita,ITA: Image-Text Alignments for Multi-Modal Named Entity Recognition,2022,Proc. NAACL-HLT,yes,ext,extraction,"T,I"
+he2023more,MORE: A Multimodal Object-Entity Relation Extraction Dataset with a Benchmark Evaluation,2023,Proc. ACM Multimedia,yes,ext,dataset,"T,I"
+yu2023gmner,Grounded Multimodal Named Entity Recognition on Social Media,2023,Proc. ACL,yes,ext,dataset,"T,I"
+chen2024continualmmkg,Continual Multimodal Knowledge Graph Construction,2024,Proc. IJCAI,yes,ext,construction,"T,I"
+li2025riveg,LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition,2025,IEEE Transactions on Multimedia (also Findings of ACL 2024),yes,ext,extraction,"T,I"
+liu2025valik,Aligning Vision to Language: Annotation-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning (VaLiK),2025,arXiv preprint arXiv:2503.12972,no,ext,construction,"T,I"
+multilora2025,Collaborative Multi-LoRA Experts with Achievement-Based Multi-Tasks Loss for Unified Multimodal Information Extraction,2025,arXiv preprint arXiv:2505.06303,no,ext,extraction,"T,I"
+remote2025,REMOTE: A Unified Multimodal Relation Extraction Framework with Multilevel Optimal Transport and Mixture-of-Experts,2025,arXiv preprint arXiv:2509.04844,no,ext,extraction,"T,I"
+xie2017ikrl,Image-Embodied Knowledge Representation Learning,2017,Proc. IJCAI,yes,comp,completion,"T,I"
+wang2019transae,Multimodal Data Enhanced Representation Learning for Knowledge Graphs (TransAE),2019,Proc. IJCNN,yes,comp,completion,"T,I"
+liu2021eva,Visual Pivoting for (Unsupervised) Entity Alignment (EVA),2021,Proc. AAAI,yes,comp,completion,"T,I"
+wang2021rsme,Is Visual Context Really Helpful for Knowledge Graph? A Representation Learning Perspective (RSME),2021,Proc. ACM Multimedia,yes,comp,completion,"T,I"
+cao2022otkge,OTKGE: Multi-modal Knowledge Graph Embeddings via Optimal Transport,2022,Proc. NeurIPS,yes,comp,completion,"T,I"
+lin2022mclea,Multi-modal Contrastive Representation Learning for Entity Alignment (MCLEA),2022,Proc. COLING,yes,comp,completion,"T,I"
+xu2022mmrns,Relation-Enhanced Negative Sampling for Multimodal Knowledge Graph Completion,2022,Proc. ACM Multimedia,yes,comp,completion,"T,I"
+zhao2022mose,MoSE: Modality Split and Ensemble for Multimodal Knowledge Graph Completion,2022,Proc. EMNLP,yes,comp,completion,"T,I"
+chen2023meaformer,MEAformer: Multi-modal Entity Alignment Transformer for Meta Modality Hybrid,2023,Proc. ACM Multimedia,yes,comp,completion,"T,I"
+lee2023vista,VISTA: Visual-Textual Knowledge Graph Representation Learning,2023,Findings of EMNLP,yes,comp,completion,"T,I"
+li2023imf,IMF: Interactive Multimodal Fusion Model for Link Prediction,2023,Proc. ACM Web Conference (WWW),yes,comp,completion,"T,I"
+zhang2024adamf,Unleashing the Power of Imbalanced Modality Information for Multi-modal Knowledge Graph Completion (AdaMF-MAT),2024,Proc. LREC-COLING,yes,comp,completion,"T,I"
+zhang2024native,NativE: Multi-modal Knowledge Graph Completion in the Wild,2024,Proc. ACM SIGIR,yes,comp,completion,"T,I"
+diffusioncom2025,DiffusionCom: Structure-Aware Multimodal Diffusion Model for Multimodal Knowledge Graph Completion,2025,arXiv preprint arXiv:2504.06543,no,comp,completion,"T,I"
+gao2025mckgc,Mixed-Curvature Multi-modal Knowledge Graph Completion (MCKGC),2025,Proc. AAAI,yes,comp,completion,"T,I"
+hergc2025,HERGC: Heterogeneous Experts Representation and Generative Completion for Multimodal Knowledge Graphs,2025,arXiv preprint arXiv:2506.00826,no,comp,completion,"T,I"
+snag2025,The Power of Noise: Toward a Unified Multi-modal Knowledge Graph Representation Framework,2025,Proc. COLING,yes,comp,completion,"T,I"
+zhang2025momok,Multiple Heads Are Better Than One: Mixture of Modality Knowledge Experts for Entity Representation Learning (MoMoK),2025,Proc. ICLR,yes,comp,completion,"T,I"
+zhang2025mygo,"Tokenization, Fusion, and Augmentation: Towards Fine-Grained Multimodal Entity Representation (MyGO)",2025,Proc. AAAI,yes,comp,completion,"T,I"
+pasupat2015wtq,Compositional Semantic Parsing on Semi-Structured Tables,2015,Proc. ACL,yes,beyond,dataset,"T,B"
+shang2017vidvrd,Video Visual Relation Detection,2017,Proc. ACM Multimedia,yes,beyond,extraction,V
+johnson2019mimiccxr,"MIMIC-CXR, a De-identified Publicly Available Database of Chest Radiographs with Free-text Reports",2019,Scientific Data,yes,beyond,dataset,"T,I"
+mmkg2019,MMKG: Multi-Modal Knowledge Graphs,2019,Proc. ESWC,yes,beyond,dataset,"T,I"
+chen2020tabfact,TabFact: A Large-scale Dataset for Table-based Fact Verification,2020,Proc. ICLR,yes,beyond,dataset,"T,B"
+deng2020turl,TURL: Table Understanding through Representation Learning,2020,Proc. VLDB Endowment,yes,beyond,extraction,"T,B"
+herzig2020tapas,TaPas: Weakly Supervised Table Parsing via Pre-training,2020,Proc. ACL,yes,beyond,extraction,"T,B"
+wang2020richpedia,"Richpedia: A Large-Scale, Comprehensive Multi-Modal Knowledge Graph",2020,Big Data Research,yes,beyond,dataset,"T,I"
+yin2020tabert,TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data,2020,Proc. ACL,yes,beyond,extraction,"T,B"
+alberts2021visualsem,VisualSem: A High-Quality Knowledge Graph for Vision and Language,2021,Proc. Workshop on Multilingual Representation Learning (EMNLP),yes,beyond,dataset,"T,I"
+chen2021finqa,FinQA: A Dataset of Numerical Reasoning over Financial Data,2021,Proc. EMNLP,yes,beyond,dataset,"T,B"
+jain2021radgraph,RadGraph: Extracting Clinical Entities and Relations from Radiology Reports,2021,Proc. NeurIPS Datasets and Benchmarks Track,yes,beyond,dataset,T
+talmor2021mmqa,"MultiModalQA: Complex Question Answering over Text, Tables and Images",2021,Proc. ICLR,yes,beyond,dataset,"T,I,B"
+zhu2021tatqa,TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance,2021,Proc. ACL,yes,beyond,dataset,"T,B"
+chandak2023primekg,Building a Knowledge Graph to Enable Precision Medicine,2023,Scientific Data,yes,beyond,dataset,T
+wang2023tivakg,"TIVA-KG: A Multimodal Knowledge Graph with Text, Image, Video and Audio",2023,Proc. ACM Multimedia,yes,beyond,dataset,"T,I,A,V"
+vatkg2025,VAT-KG: Knowledge-Intensive Multimodal Knowledge Graph Dataset for Retrieval-Augmented Generation,2025,arXiv preprint arXiv:2506.21556,no,beyond,dataset,"T,I,A"
+marino2019okvqa,OK-VQA: A Visual Question Answering Benchmark Requiring External Knowledge,2019,Proc. IEEE/CVF CVPR,yes,rag,dataset,"T,I"
+ding2022mukea,MuKEA: Multimodal Knowledge Extraction and Accumulation for Knowledge-based Visual Question Answering,2022,Proc. IEEE/CVF CVPR,yes,rag,retrieval,"T,I"
+edge2024graphrag,From Local to Global: A Graph RAG Approach to Query-Focused Summarization,2024,arXiv preprint arXiv:2404.16130,no,rag,retrieval,T
+guo2024lightrag,LightRAG: Simple and Fast Retrieval-Augmented Generation,2024,arXiv preprint arXiv:2410.05779,no,rag,retrieval,T
+gutierrez2024hipporag,HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models,2024,Proc. NeurIPS,yes,rag,retrieval,T
+knowgpt2024,KnowGPT: Knowledge Graph Based Prompting for Large Language Models,2024,Proc. NeurIPS,yes,rag,retrieval,T
+wan2025mmgraphrag,MMGraphRAG: Bridging Vision and Language with Interpretable Multimodal Knowledge Graphs,2025,arXiv preprint arXiv:2507.20804,no,rag,retrieval,"T,I"
+megarag2026,MegaRAG: Multimodal Knowledge Graph-Based Retrieval Augmented Generation,2026,arXiv preprint arXiv:2512.20626,no,rag,retrieval,"T,I"
+mg2rag2026,MG\textsuperscript2-RAG: Multi-Granularity Graph for Multimodal Retrieval-Augmented Generation,2026,arXiv preprint arXiv:2604.04969,no,rag,retrieval,"T,I"
+structpretrain2023,Structure Pretraining and Prompt Tuning for Knowledge Graph Transfer,2023,Proc. ACM Web Conference (WWW),yes,transfer,transfer,S
+fewshotkgc2024,LLM-based Multi-Level Knowledge Generation for Few-shot Knowledge Graph Completion,2024,Proc. IJCAI,yes,transfer,transfer,T
+gfm2025,Multi-Domain Graph Foundation Models: Robust Knowledge Transfer via Topology Alignment,2025,Proc. ICML,yes,transfer,transfer,S
+mldgg2025,MLDGG: Meta-Learning for Domain Generalization on Graphs,2025,Proc. ACM SIGKDD,yes,transfer,transfer,S

@@ -1,0 +1,623 @@
+% ============================================================================
+% References — "Multimodal Knowledge Graph Construction: A Survey"
+%
+% MERGE NOTE FOR ANANTHA: the ORIGINAL entry keys below are unchanged from the
+% previous version, so the advisor's refs_corrected.bib can override any of
+% them one-for-one (prefer her author/venue corrections where they differ).
+% NEW entries (added to deepen and broaden the survey) are grouped in clearly
+% marked blocks. Entries marked "%% VERIFY" have best-effort fields (mostly
+% recent preprints) — check against the official proceedings before submission.
+% lee2023vtkg was REMOVED: the VTKG benchmarks were introduced in the VISTA
+% paper (lee2023vista), so the two entries were duplicates.
+% ============================================================================
+
+% ---------- Surveys & foundations (original keys) ----------
+@article{zhu2022mmkg,
+  author  = {Zhu, Xiangru and Li, Zhixu and Wang, Xiaodan and Jiang, Xueyao and Sun, Penglei and Wang, Xuwu and Xiao, Yanghua and Yuan, Nicholas Jing},
+  title   = {Multi-Modal Knowledge Graph Construction and Application: A Survey},
+  journal = {IEEE Transactions on Knowledge and Data Engineering},
+  volume  = {36}, number = {2}, pages = {715--735}, year = {2024}}
+
+@article{chen2024kgmm,
+  author  = {Chen, Zhuo and Zhang, Yichi and Fang, Yin and Geng, Yuxia and Guo, Lingbing and Chen, Xiang and Li, Qian and Zhang, Wen and Chen, Jiaoyan and Zhu, Yushan and Li, Jiaqi and Liu, Xiaoze and Pan, Jeff Z. and Zhang, Ningyu and Chen, Huajun},
+  title   = {Knowledge Graphs Meet Multi-Modal Learning: A Comprehensive Survey},
+  journal = {arXiv preprint arXiv:2402.05391}, year = {2024}}
+
+@article{bian2025llmkgc,
+  author  = {Bian, Haonan},
+  title   = {{LLM}-Empowered Knowledge Graph Construction: A Survey},
+  journal = {arXiv preprint arXiv:2510.20345}, year = {2025}}
+
+@article{zhong2023autokgc,
+  author  = {Zhong, Lingfeng and Wu, Jia and Li, Qian and Peng, Hao and Wu, Xindong},
+  title   = {A Comprehensive Survey on Automatic Knowledge Graph Construction},
+  journal = {ACM Computing Surveys}, volume = {56}, number = {4}, pages = {1--62}, year = {2023}}
+
+@article{hogan2021kg,
+  author  = {Hogan, Aidan and Blomqvist, Eva and Cochez, Michael and d'Amato, Claudia and de Melo, Gerard and Guti{\'e}rrez, Claudio and Kirrane, Sabrina and Labra Gayo, Jos{\'e} Emilio and Navigli, Roberto and Neumaier, Sebastian and Ngonga Ngomo, Axel-Cyrille and Polleres, Axel and Rashid, Sabbir M. and Rula, Anisa and Schmelzeisen, Lukas and Sequeda, Juan and Staab, Steffen and Zimmermann, Antoine},
+  title   = {Knowledge Graphs},
+  journal = {ACM Computing Surveys}, volume = {54}, number = {4}, pages = {1--37}, year = {2021}}
+
+@article{ji2022kgsurvey,
+  author  = {Ji, Shaoxiong and Pan, Shirui and Cambria, Erik and Marttinen, Pekka and Yu, Philip S.},
+  title   = {A Survey on Knowledge Graphs: Representation, Acquisition, and Applications},
+  journal = {IEEE Transactions on Neural Networks and Learning Systems},
+  volume  = {33}, number = {2}, pages = {494--514}, year = {2022}}
+
+@article{aireview2025kml,
+  author  = {Lymperaiou, Maria and Stamou, Giorgos},
+  title   = {A Survey on Knowledge-Enhanced Multimodal Learning},
+  journal = {Artificial Intelligence Review}, volume = {58}, year = {2025}}
+
+@article{zhang2025graphragsurvey,
+  author  = {Zhang, Qinggang and Chen, Shengyuan and Bei, Yuanchen and Yuan, Zheng and Zhou, Huachi and Hong, Zijin and Dong, Junnan and Chen, Hao and Chang, Yi and Huang, Xiao},
+  title   = {A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models},
+  journal = {arXiv preprint arXiv:2501.13958}, year = {2025}}
+
+@article{wang2017kgesurvey,
+  author  = {Wang, Quan and Mao, Zhendong and Wang, Bin and Guo, Li},
+  title   = {Knowledge Graph Embedding: A Survey of Approaches and Applications},
+  journal = {IEEE Transactions on Knowledge and Data Engineering},
+  volume  = {29}, number = {12}, pages = {2724--2743}, year = {2017}}
+
+% ---------- Encyclopedic KGs & KGE foundations ----------
+@inproceedings{auer2007dbpedia,
+  author = {Auer, S{\"o}ren and Bizer, Christian and Kobilarov, Georgi and Lehmann, Jens and Cyganiak, Richard and Ives, Zachary},
+  title = {{DBpedia}: A Nucleus for a Web of Open Data},
+  booktitle = {Proc. ISWC/ASWC}, pages = {722--735}, year = {2007}}
+
+@article{vrandecic2014wikidata,
+  author = {Vrande{\v{c}}i{\'c}, Denny and Kr{\"o}tzsch, Markus},
+  title = {{Wikidata}: A Free Collaborative Knowledgebase},
+  journal = {Communications of the ACM}, volume = {57}, number = {10}, pages = {78--85}, year = {2014}}
+
+@inproceedings{suchanek2007yago,
+  author = {Suchanek, Fabian M. and Kasneci, Gjergji and Weikum, Gerhard},
+  title = {{YAGO}: A Core of Semantic Knowledge},
+  booktitle = {Proc. WWW}, pages = {697--706}, year = {2007}}
+
+@inproceedings{bollacker2008freebase,
+  author = {Bollacker, Kurt and Evans, Colin and Paritosh, Praveen and Sturge, Tim and Taylor, Jamie},
+  title = {{Freebase}: A Collaboratively Created Graph Database for Structuring Human Knowledge},
+  booktitle = {Proc. ACM SIGMOD}, pages = {1247--1250}, year = {2008}}
+
+@inproceedings{bordes2013transe,
+  author = {Bordes, Antoine and Usunier, Nicolas and Garcia-Dur{\'a}n, Alberto and Weston, Jason and Yakhnenko, Oksana},
+  title = {Translating Embeddings for Modeling Multi-relational Data},
+  booktitle = {Proc. NeurIPS}, pages = {2787--2795}, year = {2013}}
+
+@inproceedings{yang2015distmult,
+  author = {Yang, Bishan and Yih, Wen-tau and He, Xiaodong and Gao, Jianfeng and Deng, Li},
+  title = {Embedding Entities and Relations for Learning and Inference in Knowledge Bases},
+  booktitle = {Proc. ICLR}, year = {2015}}
+
+@inproceedings{trouillon2016complex,
+  author = {Trouillon, Th{\'e}o and Welbl, Johannes and Riedel, Sebastian and Gaussier, {\'E}ric and Bouchard, Guillaume},
+  title = {Complex Embeddings for Simple Link Prediction},
+  booktitle = {Proc. ICML}, pages = {2071--2080}, year = {2016}}
+
+@inproceedings{dettmers2018conve,
+  author = {Dettmers, Tim and Minervini, Pasquale and Stenetorp, Pontus and Riedel, Sebastian},
+  title = {Convolutional {2D} Knowledge Graph Embeddings ({ConvE})},
+  booktitle = {Proc. AAAI}, pages = {1811--1818}, year = {2018}}
+
+@inproceedings{sun2019rotate,
+  author = {Sun, Zhiqing and Deng, Zhi-Hong and Nie, Jian-Yun and Tang, Jian},
+  title = {{RotatE}: Knowledge Graph Embedding by Relational Rotation in Complex Space},
+  booktitle = {Proc. ICLR}, year = {2019}}
+
+@inproceedings{toutanova2015fb,
+  author = {Toutanova, Kristina and Chen, Danqi},
+  title = {Observed versus Latent Features for Knowledge Base and Text Inference},
+  booktitle = {Proc. Workshop on Continuous Vector Space Models and their Compositionality}, pages = {57--66}, year = {2015}}
+
+% ---------- Vision-language & audio encoders ----------
+@inproceedings{radford2021clip,
+  author = {Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and Krueger, Gretchen and Sutskever, Ilya},
+  title = {Learning Transferable Visual Models from Natural Language Supervision},
+  booktitle = {Proc. ICML}, pages = {8748--8763}, year = {2021}}
+
+@inproceedings{girdhar2023imagebind,
+  author = {Girdhar, Rohit and El-Nouby, Alaaeldin and Liu, Zhuang and Singh, Mannat and Alwala, Kalyan Vasudev and Joulin, Armand and Misra, Ishan},
+  title = {{ImageBind}: One Embedding Space to Bind Them All},
+  booktitle = {Proc. IEEE/CVF CVPR}, pages = {15180--15190}, year = {2023}}
+
+@inproceedings{li2023blip2,
+  author = {Li, Junnan and Li, Dongxu and Savarese, Silvio and Hoi, Steven},
+  title = {{BLIP-2}: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models},
+  booktitle = {Proc. ICML}, pages = {19730--19742}, year = {2023}}
+
+@inproceedings{liu2023llava,
+  author = {Liu, Haotian and Li, Chunyuan and Wu, Qingyang and Lee, Yong Jae},
+  title = {Visual Instruction Tuning},
+  booktitle = {Proc. NeurIPS}, year = {2023}}
+
+@article{krishna2017visualgenome,
+  author = {Krishna, Ranjay and Zhu, Yuke and Groth, Oliver and Johnson, Justin and Hata, Kenji and Kravitz, Joshua and Chen, Stephanie and Kalantidis, Yannis and Li, Li-Jia and Shamma, David A. and Bernstein, Michael S. and Fei-Fei, Li},
+  title = {Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations},
+  journal = {International Journal of Computer Vision}, volume = {123}, pages = {32--73}, year = {2017}}
+
+@inproceedings{gemmeke2017audioset,
+  author = {Gemmeke, Jort F. and Ellis, Daniel P. W. and Freedman, Dylan and Jansen, Aren and Lawrence, Wade and Moore, R. Channing and Plakal, Manoj and Ritter, Marvin},
+  title = {Audio Set: An Ontology and Human-Labeled Dataset for Audio Events},
+  booktitle = {Proc. IEEE ICASSP}, pages = {776--780}, year = {2017}}
+
+@inproceedings{baevski2020wav2vec,
+  author = {Baevski, Alexei and Zhou, Yuhao and Mohamed, Abdelrahman and Auli, Michael},
+  title = {wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations},
+  booktitle = {Proc. NeurIPS}, pages = {12449--12460}, year = {2020}}
+
+@inproceedings{radford2023whisper,
+  author = {Radford, Alec and Kim, Jong Wook and Xu, Tao and Brockman, Greg and McLeavey, Christine and Sutskever, Ilya},
+  title = {Robust Speech Recognition via Large-Scale Weak Supervision},
+  booktitle = {Proc. ICML}, pages = {28492--28518}, year = {2023}}
+
+@inproceedings{elizalde2023clap,
+  author = {Elizalde, Benjamin and Deshmukh, Soham and Al Ismail, Mahmoud and Wang, Huaming},
+  title = {{CLAP}: Learning Audio Concepts from Natural Language Supervision},
+  booktitle = {Proc. IEEE ICASSP}, year = {2023}}
+
+@inproceedings{zhang2023videollama,
+  author = {Zhang, Hang and Li, Xin and Bing, Lidong},
+  title = {{Video-LLaMA}: An Instruction-tuned Audio-Visual Language Model for Video Understanding},
+  booktitle = {Proc. EMNLP System Demonstrations}, pages = {543--553}, year = {2023}}
+
+% ---------- Text & LLM-driven construction ----------
+@inproceedings{yao2019docred,
+  author    = {Yao, Yuan and Ye, Deming and Li, Peng and Han, Xu and Lin, Yankai and Liu, Zhenghao and Liu, Zhiyuan and Huang, Lixin and Zhou, Jie and Sun, Maosong},
+  title     = {{DocRED}: A Large-Scale Document-Level Relation Extraction Dataset},
+  booktitle = {Proc. ACL}, pages = {764--777}, year = {2019}}
+
+@inproceedings{tan2022redocred,
+  author    = {Tan, Qingyu and Xu, Lu and Bing, Lidong and Ng, Hwee Tou and Aljunied, Sharifah Mahani},
+  title     = {Revisiting {DocRED} -- Addressing the False Negative Problem in Relation Extraction},
+  booktitle = {Proc. EMNLP}, pages = {8472--8487}, year = {2022}}
+
+@inproceedings{zhou2021atlop,
+  author    = {Zhou, Wenxuan and Huang, Kevin and Ma, Tengyu and Huang, Jing},
+  title     = {Document-Level Relation Extraction with Adaptive Thresholding and Localized Context Pooling},
+  booktitle = {Proc. AAAI}, pages = {14612--14620}, year = {2021}}
+
+@inproceedings{huguet2021rebel,
+  author    = {Huguet Cabot, Pere-Llu{\'i}s and Navigli, Roberto},
+  title     = {{REBEL}: Relation Extraction By End-to-end Language generation},
+  booktitle = {Findings of EMNLP}, pages = {2370--2381}, year = {2021}}
+
+@inproceedings{angeli2015openie,
+  author    = {Angeli, Gabor and Premkumar, Melvin Jose Johnson and Manning, Christopher D.},
+  title     = {Leveraging Linguistic Structure for Open Domain Information Extraction},
+  booktitle = {Proc. ACL}, pages = {344--354}, year = {2015}}
+
+@inproceedings{chen2024sackg,
+  author    = {Chen, Hanzhu and Shen, Xu and Lv, Qitan and Wang, Jie and Ni, Xiaoqi and Ye, Jieping},
+  title     = {{SAC-KG}: Exploiting Large Language Models as Skilled Automatic Constructors for Domain Knowledge Graph},
+  booktitle = {Proc. ACL}, pages = {4345--4360}, year = {2024}}
+
+@article{bai2025autoschemakg,
+  author  = {Bai, Jiaxin and Fan, Wei and Zong, Qing and Li, Chunyang and Tsang, Hong Ting and Luo, Hongyu and Yim, Yauwai and Huang, Haoyu and others},
+  title   = {{AutoSchemaKG}: Autonomous Knowledge Graph Construction through Dynamic Schema Induction from Web-Scale Corpora},
+  journal = {arXiv preprint arXiv:2505.23628}, year = {2025}}
+
+@inproceedings{sun2024docs2kg,
+  author    = {Sun, Qiang and Luo, Yuanyi and Zhang, Wenxiao and Li, Sirui and Li, Jichunyang and Niu, Kai and Kong, Xiangrui and Liu, Wei},
+  title     = {{Docs2KG}: Unified Knowledge Graph Construction from Heterogeneous Documents Assisted by Large Language Models},
+  booktitle = {Companion Proc. ACM Web Conference (WWW)}, year = {2025}}
+
+@article{liang2024kag,
+  author  = {Liang, Lei and Sun, Mengshu and Gui, Zhengke and Zhu, Zhongshu and Jiang, Zhouyu and Zhong, Ling and Zhao, Peilong and Bo, Zhongpu and Yang, Jin and others},
+  title   = {{KAG}: Boosting {LLMs} in Professional Domains via Knowledge-Augmented Generation},
+  journal = {arXiv preprint arXiv:2409.13731}, year = {2024}}
+
+%%%% TODO: add first names/initials from refs_corrected.bib
+@article{trace2026,
+  author  = {Abolhasani and Ba and He and Pan},
+  title   = {Beyond Predefined Schemas: {TRACE-KG} for Context-Enriched Knowledge Graphs from Complex Documents},
+  journal = {arXiv preprint arXiv:2604.03496}, year = {2026}}
+
+%%%% TODO: add first names/initials from refs_corrected.bib
+@article{nlpakg2025,
+  author  = {Lan and others},
+  title   = {{NLP-AKG}: Few-Shot Construction of {NLP} Academic Knowledge Graph Based on {LLM}},
+  journal = {arXiv preprint arXiv:2502.14192}, year = {2025}}
+
+@inproceedings{text2kgbench2023,
+  author    = {Mihindukulasooriya, Nandana and Tiwari, Sanju and Enguix, Carlos F. and Lata, Kusum},
+  title     = {{Text2KGBench}: A Benchmark for Ontology-Driven Knowledge Graph Generation from Text},
+  booktitle = {Proc. ISWC}, pages = {247--265}, year = {2023}}
+
+@inproceedings{babaei2023llms4ol,
+  author    = {Babaei Giglou, Hamed and D'Souza, Jennifer and Auer, S{\"o}ren},
+  title     = {{LLMs4OL}: Large Language Models for Ontology Learning},
+  booktitle = {Proc. ISWC}, pages = {408--427}, year = {2023}}
+
+% ---------- Document-centric understanding ----------
+@inproceedings{xu2020layoutlm,
+  author    = {Xu, Yiheng and Li, Minghao and Cui, Lei and Huang, Shaohan and Wei, Furu and Zhou, Ming},
+  title     = {{LayoutLM}: Pre-training of Text and Layout for Document Image Understanding},
+  booktitle = {Proc. ACM SIGKDD}, pages = {1192--1200}, year = {2020}}
+
+@inproceedings{xu2021layoutlmv2,
+  author    = {Xu, Yang and Xu, Yiheng and Lv, Tengchao and Cui, Lei and Wei, Furu and Wang, Guoxin and Lu, Yijuan and Florencio, Dinei and Zhang, Cha and Che, Wanxiang and Zhang, Min and Zhou, Lidong},
+  title     = {{LayoutLMv2}: Multi-modal Pre-training for Visually-Rich Document Understanding},
+  booktitle = {Proc. ACL}, pages = {2579--2591}, year = {2021}}
+
+@inproceedings{huang2022layoutlmv3,
+  author    = {Huang, Yupan and Lv, Tengchao and Cui, Lei and Lu, Yutong and Wei, Furu},
+  title     = {{LayoutLMv3}: Pre-training for Document {AI} with Unified Text and Image Masking},
+  booktitle = {Proc. ACM Multimedia}, pages = {4083--4091}, year = {2022}}
+
+@inproceedings{wang2022lilt,
+  author    = {Wang, Jiapeng and Jin, Lianwen and Ding, Kai},
+  title     = {{LiLT}: A Simple yet Effective Language-Independent Layout Transformer for Structured Document Understanding},
+  booktitle = {Proc. ACL}, pages = {7747--7757}, year = {2022}}
+
+@inproceedings{kim2022donut,
+  author    = {Kim, Geewook and Hong, Teakgyu and Yim, Moonbin and Nam, JeongYeon and Park, Jinyoung and Yim, Jinyeong and Hwang, Wonseok and Yun, Sangdoo and Han, Dongyoon and Park, Seunghyun},
+  title     = {{OCR}-Free Document Understanding Transformer ({Donut})},
+  booktitle = {Proc. ECCV}, pages = {498--517}, year = {2022}}
+
+@inproceedings{luo2024layoutllm,
+  author    = {Luo, Chuwei and Shen, Yufan and Zhu, Zhaoqing and Zheng, Qi and Yu, Zhi and Yao, Cong},
+  title     = {{LayoutLLM}: Layout Instruction Tuning with Large Language Models for Document Understanding},
+  booktitle = {Proc. IEEE/CVF CVPR}, pages = {15630--15640}, year = {2024}}
+
+@article{docowl2024,
+  author  = {Hu, Anwen and Xu, Haiyang and Ye, Jiabo and Yan, Ming and Zhang, Liang and Zhang, Bo and Li, Chen and Zhang, Ji and Jin, Qin and Huang, Fei and Zhou, Jingren},
+  title   = {{mPLUG-DocOwl 1.5}: Unified Structure Learning for {OCR}-free Document Understanding},
+  journal = {arXiv preprint arXiv:2403.12895}, year = {2024}}
+
+@inproceedings{nougat2024,
+  author    = {Blecher, Lukas and Cucurull, Guillem and Scialom, Thomas and Stojnic, Robert},
+  title     = {{Nougat}: Neural Optical Understanding for Academic Documents},
+  booktitle = {Proc. ICLR}, year = {2024}}
+
+% ---------- Multimodal extraction & grounding ----------
+@inproceedings{moon2018mner,
+  author    = {Moon, Seungwhan and Neves, Leonardo and Carvalho, Vitor},
+  title     = {Multimodal Named Entity Recognition for Short Social Media Posts},
+  booktitle = {Proc. NAACL-HLT}, pages = {852--860}, year = {2018}}
+
+@inproceedings{lu2018visual,
+  author    = {Lu, Di and Neves, Leonardo and Carvalho, Vitor and Zhang, Ning and Ji, Heng},
+  title     = {Visual Attention Model for Name Tagging in Multimodal Social Media},
+  booktitle = {Proc. ACL}, pages = {1990--1999}, year = {2018}}
+
+@inproceedings{yu2020umt,
+  author    = {Yu, Jianfei and Jiang, Jing and Yang, Li and Xia, Rui},
+  title     = {Improving Multimodal Named Entity Recognition via Entity Span Detection with Unified Multimodal Transformer},
+  booktitle = {Proc. ACL}, pages = {3342--3352}, year = {2020}}
+
+@inproceedings{wang2022ita,
+  author    = {Wang, Xinyu and Gui, Min and Jiang, Yong and Jia, Zixia and Bach, Nguyen and Wang, Tao and Huang, Zhongqiang and Tu, Kewei},
+  title     = {{ITA}: Image-Text Alignments for Multi-Modal Named Entity Recognition},
+  booktitle = {Proc. NAACL-HLT}, pages = {3176--3189}, year = {2022}}
+
+@inproceedings{chen2022hvpnet,
+  author    = {Chen, Xiang and Zhang, Ningyu and Li, Lei and Yao, Yunzhi and Deng, Shumin and Tan, Chuanqi and Huang, Fei and Si, Luo and Chen, Huajun},
+  title     = {Good Visual Guidance Makes A Better Extractor: Hierarchical Visual Prefix for Multimodal Entity and Relation Extraction},
+  booktitle = {Findings of NAACL}, pages = {1607--1618}, year = {2022}}
+
+@inproceedings{chen2022mkgformer,
+  author    = {Chen, Xiang and Zhang, Ningyu and Li, Lei and Deng, Shumin and Tan, Chuanqi and Xu, Changliang and Huang, Fei and Si, Luo and Chen, Huajun},
+  title     = {Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion ({MKGformer})},
+  booktitle = {Proc. ACM SIGIR}, pages = {904--915}, year = {2022}}
+
+@inproceedings{zheng2021mnre,
+  author    = {Zheng, Changmeng and Wu, Zhiwei and Feng, Junhao and Fu, Ze and Cai, Yi},
+  title     = {{MNRE}: A Challenge Multimodal Dataset for Neural Relation Extraction with Visual Evidence in Social Media Posts},
+  booktitle = {Proc. IEEE ICME}, year = {2021}}
+
+@inproceedings{zheng2021mre,
+  author    = {Zheng, Changmeng and Feng, Junhao and Fu, Ze and Cai, Yi and Li, Qing and Wang, Tao},
+  title     = {Multimodal Relation Extraction with Efficient Graph Alignment},
+  booktitle = {Proc. ACM Multimedia}, pages = {5298--5306}, year = {2021}}
+
+@inproceedings{he2023more,
+  author    = {He, Liang and Wang, Hongke and Cao, Yongchang and Wu, Zhen and Zhang, Jianbing and Dai, Xinyu},
+  title     = {{MORE}: A Multimodal Object-Entity Relation Extraction Dataset with a Benchmark Evaluation},
+  booktitle = {Proc. ACM Multimedia}, pages = {4564--4573}, year = {2023}}
+
+@inproceedings{yu2023gmner,
+  author    = {Yu, Jianfei and Li, Ziyan and Wang, Jieming and Xia, Rui},
+  title     = {Grounded Multimodal Named Entity Recognition on Social Media},
+  booktitle = {Proc. ACL}, pages = {9141--9154}, year = {2023}}
+
+@article{li2025riveg,
+  author  = {Li, Jinyuan and Li, Han and Sun, Di and Wang, Jiahao and Zhang, Wenkun and Wang, Zan and Pan, Gang},
+  title   = {{LLMs} as Bridges: Reformulating Grounded Multimodal Named Entity Recognition},
+  journal = {IEEE Transactions on Multimedia (also Findings of ACL 2024)}, year = {2025}}
+
+%%%% TODO: add first names/initials from refs_corrected.bib
+@article{remote2025,
+  author  = {Lin and others},
+  title   = {{REMOTE}: A Unified Multimodal Relation Extraction Framework with Multilevel Optimal Transport and Mixture-of-Experts},
+  journal = {arXiv preprint arXiv:2509.04844}, year = {2025}}
+
+%%%% TODO: add first names/initials from refs_corrected.bib
+@article{multilora2025,
+  author  = {Yuan and others},
+  title   = {Collaborative Multi-{LoRA} Experts with Achievement-Based Multi-Tasks Loss for Unified Multimodal Information Extraction},
+  journal = {arXiv preprint arXiv:2505.06303}, year = {2025}}
+
+@article{liu2025valik,
+  author  = {Liu, Junming and Meng, Siyuan and Gao, Yanting and Mao, Song and Cai, Pinlong and Yan, Guohang and Chen, Yirong and Bian, Zilin and Shi, Botian and Wang, Ding},
+  title   = {Aligning Vision to Language: Annotation-Free Multimodal Knowledge Graph Construction for Enhanced {LLMs} Reasoning ({VaLiK})},
+  journal = {arXiv preprint arXiv:2503.12972}, year = {2025}}
+
+@inproceedings{chen2024continualmmkg,
+  author    = {Chen, Xiang and Zhang, Jingtian and Wang, Xiaohan and Zhang, Ningyu and Wu, Tongtong and Wang, Yuxiang and Wang, Yongheng and Chen, Huajun},
+  title     = {Continual Multimodal Knowledge Graph Construction},
+  booktitle = {Proc. IJCAI}, pages = {6225--6233}, year = {2024}}
+
+% ---------- Multimodal representation, completion & alignment ----------
+@inproceedings{xie2017ikrl,
+  author    = {Xie, Ruobing and Liu, Zhiyuan and Luan, Huanbo and Sun, Maosong},
+  title     = {Image-Embodied Knowledge Representation Learning},
+  booktitle = {Proc. IJCAI}, pages = {3140--3146}, year = {2017}}
+
+@inproceedings{wang2019transae,
+  author    = {Wang, Zikang and Li, Linjing and Li, Qiudan and Zeng, Daniel},
+  title     = {Multimodal Data Enhanced Representation Learning for Knowledge Graphs ({TransAE})},
+  booktitle = {Proc. IJCNN}, year = {2019}}
+
+@inproceedings{wang2021rsme,
+  author    = {Wang, Meng and Wang, Sen and Yang, Han and Zhang, Zheng and Chen, Xi and Qi, Guilin},
+  title     = {Is Visual Context Really Helpful for Knowledge Graph? A Representation Learning Perspective ({RSME})},
+  booktitle = {Proc. ACM Multimedia}, pages = {2735--2743}, year = {2021}}
+
+@inproceedings{zhao2022mose,
+  author    = {Zhao, Yu and Cai, Xiangrui and Wu, Yike and Zhang, Haiwei and Zhang, Ying and Zhao, Guoqing and Jiang, Ning},
+  title     = {{MoSE}: Modality Split and Ensemble for Multimodal Knowledge Graph Completion},
+  booktitle = {Proc. EMNLP}, pages = {10527--10536}, year = {2022}}
+
+@inproceedings{cao2022otkge,
+  author    = {Cao, Zongsheng and Xu, Qianqian and Yang, Zhiyong and Cao, Xiaochun and Huang, Qingming},
+  title     = {{OTKGE}: Multi-modal Knowledge Graph Embeddings via Optimal Transport},
+  booktitle = {Proc. NeurIPS}, pages = {39090--39102}, year = {2022}}
+
+@inproceedings{xu2022mmrns,
+  author    = {Xu, Derong and Xu, Tong and Wu, Shiwei and Zhou, Jingbo and Chen, Enhong},
+  title     = {Relation-Enhanced Negative Sampling for Multimodal Knowledge Graph Completion},
+  booktitle = {Proc. ACM Multimedia}, pages = {3857--3866}, year = {2022}}
+
+@inproceedings{li2023imf,
+  author    = {Li, Xinhang and Zhao, Xiangyu and Xu, Jiaxing and Zhang, Yong and Xing, Chunxiao},
+  title     = {{IMF}: Interactive Multimodal Fusion Model for Link Prediction},
+  booktitle = {Proc. ACM Web Conference (WWW)}, pages = {2572--2580}, year = {2023}}
+
+@inproceedings{lee2023vista,
+  author    = {Lee, Jaejun and Chung, Chanyoung and Lee, Hochang and Jo, Sungho and Whang, Joyce Jiyoung},
+  title     = {{VISTA}: Visual-Textual Knowledge Graph Representation Learning},
+  booktitle = {Findings of EMNLP}, pages = {7314--7328}, year = {2023}}
+
+@inproceedings{zhang2024native,
+  author    = {Zhang, Yichi and Chen, Zhuo and Guo, Lingbing and Xu, Yajing and Hu, Binbin and Liu, Ziqi and Zhang, Wen and Chen, Huajun},
+  title     = {{NativE}: Multi-modal Knowledge Graph Completion in the Wild},
+  booktitle = {Proc. ACM SIGIR}, pages = {91--101}, year = {2024}}
+
+@inproceedings{zhang2024adamf,
+  author    = {Zhang, Yichi and Chen, Zhuo and Liang, Lei and Chen, Huajun and Zhang, Wen},
+  title     = {Unleashing the Power of Imbalanced Modality Information for Multi-modal Knowledge Graph Completion ({AdaMF-MAT})},
+  booktitle = {Proc. LREC-COLING}, pages = {17120--17130}, year = {2024}}
+
+@inproceedings{zhang2025mygo,
+  author    = {Zhang, Yichi and Chen, Zhuo and Guo, Lingbing and Xu, Yajing and Hu, Binbin and Liu, Ziqi and Zhang, Wen and Chen, Huajun},
+  title     = {Tokenization, Fusion, and Augmentation: Towards Fine-Grained Multimodal Entity Representation ({MyGO})},
+  booktitle = {Proc. AAAI}, pages = {13322--13330}, year = {2025}}
+
+@inproceedings{zhang2025momok,
+  author    = {Zhang, Yichi and Chen, Zhuo and Guo, Lingbing and Xu, Yajing and Hu, Binbin and Liu, Ziqi and Zhang, Wen and Chen, Huajun},
+  title     = {Multiple Heads Are Better Than One: Mixture of Modality Knowledge Experts for Entity Representation Learning ({MoMoK})},
+  booktitle = {Proc. ICLR}, year = {2025}}
+
+@inproceedings{gao2025mckgc,
+  author    = {Gao, Yihua and Kan, Zhigang and Feng, Lianzhen and Xu, Zhen and Qiao, Linbo and Li, Dongsheng},
+  title     = {Mixed-Curvature Multi-modal Knowledge Graph Completion ({MCKGC})},
+  booktitle = {Proc. AAAI}, year = {2025}}
+
+@article{hergc2025,
+  author  = {Xiao, Yongkang and Zhang, Rui},
+  title   = {{HERGC}: Heterogeneous Experts Representation and Generative Completion for Multimodal Knowledge Graphs},
+  journal = {arXiv preprint arXiv:2506.00826}, year = {2025}}
+
+@article{diffusioncom2025,
+  author  = {Huang, Wei and others},
+  title   = {{DiffusionCom}: Structure-Aware Multimodal Diffusion Model for Multimodal Knowledge Graph Completion},
+  journal = {arXiv preprint arXiv:2504.06543}, year = {2025}}
+
+@inproceedings{snag2025,
+  author    = {Chen, Zhuo and Fang, Yin and Zhang, Yichi and Guo, Lingbing and Chen, Jiaoyan and Pan, Jeff Z. and Chen, Huajun and Zhang, Wen},
+  title     = {The Power of Noise: Toward a Unified Multi-modal Knowledge Graph Representation Framework},
+  booktitle = {Proc. COLING}, year = {2025}}
+
+@inproceedings{liu2021eva,
+  author    = {Liu, Fangyu and Chen, Muhao and Roth, Dan and Collier, Nigel},
+  title     = {Visual Pivoting for (Unsupervised) Entity Alignment ({EVA})},
+  booktitle = {Proc. AAAI}, pages = {4257--4266}, year = {2021}}
+
+@inproceedings{lin2022mclea,
+  author    = {Lin, Zhenxi and Zhang, Ziheng and Wang, Meng and Shi, Yinghui and Wu, Xian and Zheng, Yefeng},
+  title     = {Multi-modal Contrastive Representation Learning for Entity Alignment ({MCLEA})},
+  booktitle = {Proc. COLING}, pages = {2572--2584}, year = {2022}}
+
+@inproceedings{chen2023meaformer,
+  author    = {Chen, Zhuo and Chen, Jiaoyan and Zhang, Wen and Guo, Lingbing and Fang, Yin and Huang, Yufeng and Zhang, Yichi and Geng, Yuxia and Pan, Jeff Z. and Song, Wenting and Chen, Huajun},
+  title     = {{MEAformer}: Multi-modal Entity Alignment Transformer for Meta Modality Hybrid},
+  booktitle = {Proc. ACM Multimedia}, pages = {3317--3327}, year = {2023}}
+
+% ---------- Datasets & resources beyond text ----------
+@inproceedings{mmkg2019,
+  author    = {Liu, Ye and Li, Hui and Garcia-Duran, Alberto and Niepert, Mathias and Onoro-Rubio, Daniel and Rosenblum, David S.},
+  title     = {{MMKG}: Multi-Modal Knowledge Graphs},
+  booktitle = {Proc. ESWC}, pages = {459--474}, year = {2019}}
+
+@article{wang2020richpedia,
+  author  = {Wang, Meng and Wang, Haofen and Qi, Guilin and Zheng, Qiushuo},
+  title   = {Richpedia: A Large-Scale, Comprehensive Multi-Modal Knowledge Graph},
+  journal = {Big Data Research}, volume = {22}, pages = {100159}, year = {2020}}
+
+@inproceedings{alberts2021visualsem,
+  author    = {Alberts, Houda and Huang, Ningyuan and Deshpande, Yash and Liu, Yibo and Cho, Kyunghyun and Vania, Clara and Calixto, Iacer},
+  title     = {{VisualSem}: A High-Quality Knowledge Graph for Vision and Language},
+  booktitle = {Proc. Workshop on Multilingual Representation Learning (EMNLP)}, pages = {138--152}, year = {2021}}
+
+@inproceedings{wang2023tivakg,
+  author    = {Wang, Xin and Meng, Benyuan and Chen, Hong and Meng, Yuan and Lv, Ke and Zhu, Wenwu},
+  title     = {{TIVA-KG}: A Multimodal Knowledge Graph with Text, Image, Video and Audio},
+  booktitle = {Proc. ACM Multimedia}, pages = {2391--2399}, year = {2023}}
+
+@article{vatkg2025,
+  author  = {Park, Hyeongcheol and others},
+  title   = {{VAT-KG}: Knowledge-Intensive Multimodal Knowledge Graph Dataset for Retrieval-Augmented Generation},
+  journal = {arXiv preprint arXiv:2506.21556}, year = {2025}}
+
+@inproceedings{shang2017vidvrd,
+  author    = {Shang, Xindi and Ren, Tongwei and Guo, Jingfan and Zhang, Hanwang and Chua, Tat-Seng},
+  title     = {Video Visual Relation Detection},
+  booktitle = {Proc. ACM Multimedia}, pages = {1300--1308}, year = {2017}}
+
+% ---------- Tables & structured knowledge ----------
+@inproceedings{herzig2020tapas,
+  author    = {Herzig, Jonathan and Nowak, Pawel Krzysztof and M{\"u}ller, Thomas and Piccinno, Francesco and Eisenschlos, Julian Martin},
+  title     = {{TaPas}: Weakly Supervised Table Parsing via Pre-training},
+  booktitle = {Proc. ACL}, pages = {4320--4333}, year = {2020}}
+
+@inproceedings{yin2020tabert,
+  author    = {Yin, Pengcheng and Neubig, Graham and Yih, Wen-tau and Riedel, Sebastian},
+  title     = {{TaBERT}: Pretraining for Joint Understanding of Textual and Tabular Data},
+  booktitle = {Proc. ACL}, pages = {8413--8426}, year = {2020}}
+
+@article{deng2020turl,
+  author  = {Deng, Xiang and Sun, Huan and Lees, Alyssa and Wu, You and Yu, Cong},
+  title   = {{TURL}: Table Understanding through Representation Learning},
+  journal = {Proc. VLDB Endowment}, volume = {14}, number = {3}, pages = {307--319}, year = {2020}}
+
+@inproceedings{chen2020tabfact,
+  author    = {Chen, Wenhu and Wang, Hongmin and Chen, Jianshu and Zhang, Yunkai and Wang, Hong and Li, Shiyang and Zhou, Xiyou and Wang, William Yang},
+  title     = {{TabFact}: A Large-scale Dataset for Table-based Fact Verification},
+  booktitle = {Proc. ICLR}, year = {2020}}
+
+@inproceedings{pasupat2015wtq,
+  author    = {Pasupat, Panupong and Liang, Percy},
+  title     = {Compositional Semantic Parsing on Semi-Structured Tables},
+  booktitle = {Proc. ACL}, pages = {1470--1480}, year = {2015}}
+
+@inproceedings{zhu2021tatqa,
+  author    = {Zhu, Fengbin and Lei, Wenqiang and Huang, Youcheng and Wang, Chao and Zhang, Shuo and Lv, Jiancheng and Feng, Fuli and Chua, Tat-Seng},
+  title     = {{TAT-QA}: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance},
+  booktitle = {Proc. ACL}, pages = {3277--3287}, year = {2021}}
+
+@inproceedings{chen2021finqa,
+  author    = {Chen, Zhiyu and Chen, Wenhu and Smiley, Charese and Shah, Sameena and Borova, Iana and Langdon, Dylan and Moussa, Reema and Beane, Matt and Huang, Ting-Hao and Routledge, Bryan and Wang, William Yang},
+  title     = {{FinQA}: A Dataset of Numerical Reasoning over Financial Data},
+  booktitle = {Proc. EMNLP}, pages = {3697--3711}, year = {2021}}
+
+@inproceedings{talmor2021mmqa,
+  author    = {Talmor, Alon and Yoran, Ori and Catav, Amnon and Lahav, Dan and Wang, Yizhong and Asai, Akari and Ilharco, Gabriel and Hajishirzi, Hannaneh and Berant, Jonathan},
+  title     = {{MultiModalQA}: Complex Question Answering over Text, Tables and Images},
+  booktitle = {Proc. ICLR}, year = {2021}}
+
+@inproceedings{mathew2021docvqa,
+  author    = {Mathew, Minesh and Karatzas, Dimosthenis and Jawahar, C. V.},
+  title     = {{DocVQA}: A Dataset for {VQA} on Document Images},
+  booktitle = {Proc. IEEE/CVF WACV}, pages = {2200--2209}, year = {2021}}
+
+% ---------- Medical / domain ----------
+@article{johnson2019mimiccxr,
+  author  = {Johnson, Alistair E. W. and Pollard, Tom J. and Berkowitz, Seth J. and Greenbaum, Nathaniel R. and Lungren, Matthew P. and Deng, Chih-ying and Mark, Roger G. and Horng, Steven},
+  title   = {{MIMIC-CXR}, a De-identified Publicly Available Database of Chest Radiographs with Free-text Reports},
+  journal = {Scientific Data}, volume = {6}, pages = {317}, year = {2019}}
+
+@inproceedings{jain2021radgraph,
+  author    = {Jain, Saahil and Agrawal, Ashwin and Saporta, Adriel and Truong, Steven Q. H. and Duong, Du Nguyen and Bui, Tan and Chambon, Pierre and Zhang, Yuhao and Lungren, Matthew P. and Ng, Andrew Y. and Langlotz, Curtis and Rajpurkar, Pranav},
+  title     = {{RadGraph}: Extracting Clinical Entities and Relations from Radiology Reports},
+  booktitle = {Proc. NeurIPS Datasets and Benchmarks Track}, year = {2021}}
+
+@article{chandak2023primekg,
+  author  = {Chandak, Payal and Huang, Kexin and Zitnik, Marinka},
+  title   = {Building a Knowledge Graph to Enable Precision Medicine},
+  journal = {Scientific Data}, volume = {10}, pages = {67}, year = {2023}}
+
+% ---------- Knowledge-based VQA ----------
+@inproceedings{marino2019okvqa,
+  author    = {Marino, Kenneth and Rastegari, Mohammad and Farhadi, Ali and Mottaghi, Roozbeh},
+  title     = {{OK-VQA}: A Visual Question Answering Benchmark Requiring External Knowledge},
+  booktitle = {Proc. IEEE/CVF CVPR}, pages = {3195--3204}, year = {2019}}
+
+@inproceedings{ding2022mukea,
+  author    = {Ding, Yang and Yu, Jing and Liu, Bang and Hu, Yue and Cui, Mingxin and Wu, Qi},
+  title     = {{MuKEA}: Multimodal Knowledge Extraction and Accumulation for Knowledge-based Visual Question Answering},
+  booktitle = {Proc. IEEE/CVF CVPR}, pages = {5089--5098}, year = {2022}}
+
+% ---------- Reasoning, KGQA & GraphRAG ----------
+@article{edge2024graphrag,
+  author  = {Edge, Darren and Trinh, Ha and Cheng, Newman and Bradley, Joshua and Chao, Alex and Mody, Apurva and Truitt, Steven and Metropolitansky, Dasha and Ness, Robert Osazuwa and Larson, Jonathan},
+  title   = {From Local to Global: A Graph {RAG} Approach to Query-Focused Summarization},
+  journal = {arXiv preprint arXiv:2404.16130}, year = {2024}}
+
+@article{guo2024lightrag,
+  author  = {Guo, Zirui and Xia, Lianghao and Yu, Yanhua and Ao, Tu and Huang, Chao},
+  title   = {{LightRAG}: Simple and Fast Retrieval-Augmented Generation},
+  journal = {arXiv preprint arXiv:2410.05779}, year = {2024}}
+
+@inproceedings{gutierrez2024hipporag,
+  author    = {Guti{\'e}rrez, Bernal Jim{\'e}nez and Shu, Yiheng and Gu, Yu and Yasunaga, Michihiro and Su, Yu},
+  title     = {{HippoRAG}: Neurobiologically Inspired Long-Term Memory for Large Language Models},
+  booktitle = {Proc. NeurIPS}, year = {2024}}
+
+@article{wan2025mmgraphrag,
+  author  = {Wan, Xueyao and Yu, Hang},
+  title   = {{MMGraphRAG}: Bridging Vision and Language with Interpretable Multimodal Knowledge Graphs},
+  journal = {arXiv preprint arXiv:2507.20804}, year = {2025}}
+
+%%%% TODO: add first names/initials from refs_corrected.bib
+@article{mg2rag2026,
+  author  = {Dai and Huang and You and Yu},
+  title   = {{MG\textsuperscript{2}-RAG}: Multi-Granularity Graph for Multimodal Retrieval-Augmented Generation},
+  journal = {arXiv preprint arXiv:2604.04969}, year = {2026}}
+
+@article{megarag2026,
+  author  = {Hsiao, Chi-Hsiang and others},
+  title   = {{MegaRAG}: Multimodal Knowledge Graph-Based Retrieval Augmented Generation},
+  journal = {arXiv preprint arXiv:2512.20626}, year = {2026}}
+
+@inproceedings{knowgpt2024,
+  author    = {Zhang, Qinggang and Dong, Junnan and Chen, Hao and Zha, Daochen and Yu, Zailiang and Huang, Xiao},
+  title     = {{KnowGPT}: Knowledge Graph Based Prompting for Large Language Models},
+  booktitle = {Proc. NeurIPS}, year = {2024}}
+
+% ---------- Transfer, adaptation & PEFT ----------
+@inproceedings{structpretrain2023,
+  author    = {Zhang, Wen and Zhu, Yushan and Chen, Mingyang and Geng, Yuxia and Huang, Yufeng and Xu, Yajing and Song, Wenting and Chen, Huajun},
+  title     = {Structure Pretraining and Prompt Tuning for Knowledge Graph Transfer},
+  booktitle = {Proc. ACM Web Conference (WWW)}, pages = {2581--2590}, year = {2023}}
+
+@inproceedings{gfm2025,
+  author    = {Wang, Shuo and others},
+  title     = {Multi-Domain Graph Foundation Models: Robust Knowledge Transfer via Topology Alignment},
+  booktitle = {Proc. ICML}, year = {2025}}
+
+@inproceedings{mldgg2025,
+  author    = {Tian, Qin and Zhao, Chen and Shao, Minglai and Wang, Wenjun and Lin, Yujie and Li, Dong},
+  title     = {{MLDGG}: Meta-Learning for Domain Generalization on Graphs},
+  booktitle = {Proc. ACM SIGKDD}, year = {2025}}
+
+@inproceedings{fewshotkgc2024,
+  author    = {Li, Qian and others},
+  title     = {{LLM}-based Multi-Level Knowledge Generation for Few-shot Knowledge Graph Completion},
+  booktitle = {Proc. IJCAI}, year = {2024}}
+
+@inproceedings{houlsby2019adapters,
+  author    = {Houlsby, Neil and Giurgiu, Andrei and Jastrzebski, Stanislaw and Morrone, Bruna and de Laroussilhe, Quentin and Gesmundo, Andrea and Attariyan, Mona and Gelly, Sylvain},
+  title     = {Parameter-Efficient Transfer Learning for {NLP}},
+  booktitle = {Proc. ICML}, pages = {2790--2799}, year = {2019}}
+
+@inproceedings{lester2021prompt,
+  author    = {Lester, Brian and Al-Rfou, Rami and Constant, Noah},
+  title     = {The Power of Scale for Parameter-Efficient Prompt Tuning},
+  booktitle = {Proc. EMNLP}, pages = {3045--3059}, year = {2021}}
+
+@inproceedings{hu2022lora,
+  author    = {Hu, Edward J. and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Chen, Weizhu},
+  title     = {{LoRA}: Low-Rank Adaptation of Large Language Models},
+  booktitle = {Proc. ICLR}, year = {2022}}
